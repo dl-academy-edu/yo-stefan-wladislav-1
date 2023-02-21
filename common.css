@@ -87,3 +87,7 @@ a {
 .footer_nav {
     display: flex;
 }
+
+.footer_connect {
+    display: flex;
+}
