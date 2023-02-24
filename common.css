@@ -1,20 +1,7 @@
-/*global*/
+/*GLOBAL*/
 body {
     background: #E5E5E5;
     color: black;
-}
-
-img[hidden] {
-  display: none;
-}
- 
-img[hidden] {
-    display: block;
-}
-
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
 }
 
 li {
@@ -26,7 +13,17 @@ a {
     color: black;
 }
 
-/*header*/
+.hidden {
+    visibility: hidden;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
 .header__container {
     display: flex;
 }
@@ -78,16 +75,92 @@ a {
     text-transform: uppercase;
 }
 
-/** footer **/
+
+/** FOOTER **/
 .footer {
-    display: flex;
     background-color: #434343;
+    padding: 0;
 }
 
-.footer_nav {
+.footer__wrapper {
     display: flex;
+    column-gap: 20px;
+    border-bottom: 1px solid #666666;
 }
 
-.footer_connect {
+.footer__nav {
+    border-bottom: 1px solid #666666;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+.footer__info {
+    border-bottom: 1px solid #666666;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+.footer__connect {
+    border-bottom: 1px solid #666666;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+.footer__list-item {
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.connect__form-email {
+    background: #666666;
+}
+
+.connect__form-button {
+    background: #666666;
+}
+
+placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+}
+
+
+/*footer__bottom*/
+
+.rating {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer__rating {
     display: flex;
 }
