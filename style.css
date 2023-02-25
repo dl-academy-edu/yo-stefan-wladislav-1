@@ -2,14 +2,13 @@
 /*banner*/
 .banner {
     position: relative;
-    
 }
 
 .banner__img {
     position: absolute;
-    width: 530px;
-    top: -87px;
-    left: 550px;
+    width: 635px;
+    top: -71px;
+    left: 443px;
     bottom: -47px;
 }
 
@@ -29,6 +28,18 @@
     font-size: 60px;
     line-height: 73px;
     color: rgba(30, 6, 6, 0.05);
+    margin-top: 17px;
+}
+
+.banner__list-one {
+    margin-top: 10px;
+    margin-left: 28px;
+    padding: 0;
+}
+
+.banner__list-two {
+    margin-top: 89px;
+    margin-bottom: 89px;
 }
 
 .banner__button-main {
@@ -339,6 +350,7 @@
 
 .about {
     margin-right: 57px;
+    position: relative;
 }
 
 .about__wrapper {
@@ -348,15 +360,22 @@
 
 .about__list {
     width: 543px;
-    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 27px;
     background-color: #E1F0F7;
 }
 
 .contact__list {
-    padding: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 102px;
 }
 
 .about__title {
+    position: absolute;
+    top: -33px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -373,6 +392,7 @@
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
+    padding-top: 30px;
 }
 
 .about__content {
@@ -408,11 +428,18 @@
 }
 
 /*contact*/
+
+.contact {
+    position: relative;
+}
+
 .contact__list {
     background-color: #E1F0F7;
 }
 
 .contact__title {
+    position: absolute;
+    top: -33px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -432,5 +459,8 @@
 }
 
 .contact__img {
+    position: absolute;
+    top: 174px;
+    left: 24px;
     align-items: center;
 }
