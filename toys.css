@@ -80,10 +80,13 @@
 }
 
 .page__catalog-wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 53px;
 }
 
 .catalog__list-page {
+    display: flex;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
