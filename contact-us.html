@@ -2,250 +2,183 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="style/style.css"> -->
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/contact-us.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Contact Us</title>
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
-        <ul class="header__list">
-            <li class="header__list-item">
-                <a class="header__list-link" href="index.html">
-                    <img class="header__list-img" src="img/logo.png" alt="logo">
-                </a>
-            </li>
-            <li class="header__list-item">
-                <a class="header__list-link" href="blog.html">BLOG</a>
-            </li>
-            <li class="header__list-item">
-                <a class="header__list-link" href="catalog.html">CATALOG</a>
-            </li>
-            <li class="header__list-item">
-                <a class="header__list-link" href="#">ABOUT US</a>
-            </li>
-        </ul>
-        <ul class="header__list-contact_us">
-            <li class="header__list-item">
-                <img class="header__list-img" src="img/search.png" alt="search">
-            </li>
-            <li class="header__list-item">
-                <a class="header__list-link" href="contact-us.html">CONTACT US</a>
-            </li>
-        </ul>
-    </header>
+<!-- HEADER -->
+        <header class="header__container container">
+            <ul class="header__list-first">
+                <li class="header__list-item--one">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo">
+                    </a>
+                </li>
+                <li class="header__list-item--first">
+                    <a href="blog.html" class="header__list-link">BLOG</a>
+                </li>
+                <li class="header__list-item--first">
+                    <a href="catalog.html" class="header__list-link">CATALOG</a>
+                </li>
+                <li class="header__list-item--first">
+                    <a href="about.html" class="header__list-link">ABOUT US</a>
+                </li>
+            </ul>
+            <ul class="header__list-search">
+                <li class="header__list-item--search">
+                    <button type="button" class="header__button">
+                        <img src="img/search.svg" alt="search" class="search__img">
+                    </button>
+                </li>
+                <li class="header__list-item--two">
+                    <a href="contact" class="header__list-link">CONTACT US</a>
+                </li>
+            </ul>
+        </header>
 
-    <!-- MAIN -->
+<!-- MAIN -->
 
-    <main class="main">
+<main class="main">
         
-         <!-- CONTACT US -->
-         <section class="contact__us">
-
-            <h2 class="contact__us-title">
-                CONTACT US
-            </h2>
-            
-            <!-- PAGE -->
-            <div class="page">
-                <a class="page__main__link" href="index.html">
-                    Home
-                </a>
-                <img class="page__img" src="img/ar-page.png" alt="#">
-                <a class="page__blog__link" href="contact-us.html">
-                    Contact Us
-                </a>
+<!-- CONTACT US -->
+    <section class="contact__page container">
+        <h2 class="contact__us-title">Contact Us</h2>
+            <div class="contact__wrapper">
+                <a class="contact__link" href="index.html">Home</a>
+                <img class="contact__arrow" src="img/ar-page.png" alt="#">
+                <a class="contact__link" href="catalog.html">Contact Us</a>
             </div>
-            
-            <!-- FORM -->
-            <div class="form">
-                <form class="contact__us-form" method="post">
-                    <div class="form__container">
-                        <div class="form__name">
-                            <label>Name</label>
-                            <input type="text" name="Name" required>
-                        </div>
-                        <div class="form__phone">
-                            <label>Phone</label>
-                            <input type="number" name="Phone" required>
-                        </div>
-                        <div class="form__email">
-                            <label>Email</label>
-                            <input type="email" name="Email" required>
-                        </div>
-                        <div class="form__message">
-                            <label>Message</label>
-                            <input type="text" name="Message">
-                        </div>
-                        <div class="form__rule">
-                            <input type="checkbox" name="rule">
-                            <label>By clicking on the button, you consent to the processing of your personal data</label>
-                        </div>
-                        <input class="form__button" type="submit" value="SUBMIT">
-                    </div>
-                </form>
-            </div>
-
-            <div class="container">
-                <p class="container__content">
-                    Our support team are on-hand to assist with any issues you are experiencing.
-                </p>
-                <p class="container__content">
-                    Please use the form to contact us with your needs. Send us a message and we'll respond 
-                    as soon as possible.
-                </p>
-                <p class="container__content-text">
-                    An expert is waiting to help you!
-                </p>
-            </div>
-         </section>
-    </main>
-
-
-    <!-- footer -->
-    <section class="footer_nav">
-        <h2 class="footer_nav__title">Navigation</h2>
-        <img class="footer_nav__img" src="img/line.png" alt="#">
-        <ul class="footer_nav__list">
-            <li class="footer_nav__list-item">
-                <a class="footer_nav__list-link" href="index.html">
-                    About Us
-                </a>
-            </li>
-            <li class="footer_nav__list-item">
-                <a class="footer_nav__list-link" href="index.html">
-                    Blog
-                </a>
-            </li>
-            <li class="footer_nav__list-item">
-                <a class="footer_nav__list-link" href="index.html">
-                    Design Services
-                </a>
-            </li>
-            <li class="footer_nav__list-item">
-                <a class="footer_nav__list-link" href="index.html">
-                    Featured On
-                </a>
-            </li>
-            <li class="footer_nav__list-item">
-                <a class="footer_nav__list-link" href="index.html">
-                    2018 Holiday Catalog
-                </a>
-            </li>
-            <li class="footer_nav__list-item">
-                <a class="footer_nav__list-link" href="index.html">
-                    Shop By Designer
-                </a>
-            </li>
-        </ul>
     </section>
+            
+<!-- FORM -->
+    <section class="form container">
+        <div class="form__wrapper">
+            <div class="form__contact">
+                <h2 class="hidden">Footer</h2>
+                    <form class="contact__us-form" action="/" method="post">
+                        <div class="form__container">
+                            <div class="form__group">
+                                <label class="form__label" for="form_name">Name</label>
+                                <input class="form__name" type="text" name="name" id="form_name" required>
+                            </div>
+                            <div class="form__group-wrapper">
+                                <div class="form__group">
+                                    <label class="form__label" for="form_tel">Phone</label>
+                                    <input class="form__input form__tel" type="tel" name="tel" id="form_tel" required>
+                                    <label class="form__label" for="form_email">Email</label>
+                                    <input class="form__input" type="email" name="email" id="form_email" required>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="form_message">Message</label>
+                                <input class="form__message" type="text" name="message" id="form_message" required>
+                            </div>
+                            <div class="form__rule">
+                                <input type="checkbox" class="input_rule" id="form_rule" name="rule">
+                                <label for="form_rule" class="form__rule">By clicking on the button, you consent to the processing of your personal data</label>
+                            </div>
+                                <input class="form__button" type="submit" value="SUBMIT">
+                        </div>
+                    </form>
+                </div>
 
-    <section class="footer_info">
-        <h2 class="footer_info__title">Customer Information</h2>
-        <img class="footer_info__img" src="img/line.png" alt="#">
-        <ul class="footer_info__list">
-            <li class="footer_info__list-item">
-                <a class="footer_info__list-link" href="#">
-                    Contact Us
-                </a>
-            </li>
-            <li class="footer_info__list-item">
-                <a class="footer_info__list-link" href="#">
-                    Sale Exclusions
-                </a>
-            </li>
-            <li class="footer_info__list-item">
-                <a class="footer_info__list-link" href="#">
-                    Shipping & Returns
-                </a>
-            </li>
-            <li class="footer_info__list-item">
-                <a class="footer_info__list-link" href="#">
-                    Terms & Conditions
-                </a>
-            </li>
-            <li class="footer_info__list-item">
-                <a class="footer_info__list-link" href="#">
-                    Privacy Policy
-                </a>
-            </li>
-            <li class="footer_info__list-item">
-                <a class="footer_info__list-link" href="#">
-                    Search
-                </a>
-            </li>
-        </ul>
+                <div class="form__content--wrapper">
+                    <p class="form__content">Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p class="form__content">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                    <p class="form__content--link">An expert is waiting to help you!</p>
+                </div>
+        </div>
+    </section>
+</main>
 
-    <div class="footer_connect">
 
-        <h2 class="footer_connect__title">
-            Connect
-        </h2>
+<!-- FOOTER -->
+    <footer class="footer">
+        <section class="footer__container container">
+            <div class="footer__wrapper">
+                <h2 class="hidden">Footer</h2>
+                <ul class="footer__list">
+                    <li class="footer__list-title"><p class="footer__nav">Navigation</p></li>
+                    <li class="footer__list-item">About Us</li>
+                    <li class="footer__list-item">Blog</li>
+                    <li class="footer__list-item">Design Services</li>
+                    <li class="footer__list-item">Featured On</li>
+                    <li class="footer__list-item">2018 Holiday Catalog</li>
+                    <li class="footer__list-item">Shop By Designer</li>
+                </ul>
 
-        <img class="footer_connect__img" src="img/line.png" alt="#">
+                <ul class="footer__list">
+                    <li class="footer__list-title"><p class="footer__info">Customer Information</p></li>
+                    <li class="footer__list-item">Contact Us</li>
+                    <li class="footer__list-item">Sale Exclusions</li>
+                    <li class="footer__list-item">Shipping & Returns</li>
+                    <li class="footer__list-item">Terms & Conditions</li>
+                    <li class="footer__list-item">Privacy Policy</li>
+                    <li class="footer__list-item">Search</li>
+                </ul>
 
-        <form>
-            <input type="email" placeholder="EMAIL">
-            <input type="button" value="JOIN">
-        </form>
+                <ul class="footer__list-connect">
+                    <li class="footer__list-title"><p class="footer__connect">Connect</p></li>
+                    <li class="footer__list-item">
+                        <form class="connect__form">
+                            <input class="connect__form-email" type="email" placeholder="EMAIL">
+                            <input class="connect__form-button" type="button" value="JOIN">
+                        </form>
+                        
+                        <a class="social_icon__list-item" href="https://news.mail.ru/">
+                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
+                        </a>
+                        
+                        <a class="social_icon__list-item" href="https://www.apple.com/">
+                            <img class="social_icon__img" src="img/t.png" alt="apple">
+                        </a>
+                        
+                        <a class="social_icon__list-item" href="https://altex.ro/">
+                            <img class="social_icon__img" src="img/p.png" alt="altex">
+                        </a>
+                        
+                        <a class="social_icon__list-item" href="https://www.owox.com/">
+                            <img class="social_icon__img" src="img/i.png" alt="owox">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer__rating-wrapper">
+                <div class="footer__rating">
+                        <ul class="footer_rating__list">
+                            <li class="footer_rating__list_title">
+                                Company Rating
+                            </li>
+                            <li class="footer_rating__list_item">
+                                <img src="img/star.png" alt="star">
+                            </li>
+                            <li class="footer_rating__list_item">
+                                <img src="img/star.png" alt="star">
+                            </li>
+                            <li class="footer_rating__list_item">
+                                <img src="img/star.png" alt="star">
+                            </li>
+                            <li class="footer_rating__list_item">
+                                <img src="img/star.png" alt="star">
+                            </li>
+                            <li class="footer_rating__list_item">
+                                <img src="img/star.png" alt="star">
+                            </li>
+                        </ul>
 
-        <ul class="social_icon">
-            <li class="social_icon__list">
-                <a class="social_icon__list-item" href="https://news.mail.ru/">
-                    <img class="social_icon__img" src="img/f.png" alt="mailgroup">
-                </a>
-            </li>
-            <li class="social_icon__list">
-                <a class="social_icon__list-item" href="https://www.apple.com/">
-                    <img class="social_icon__img" src="img/t.png" alt="apple">
-                </a>
-            </li>
-            <li class="social_icon__list">
-                <a class="social_icon__list-item" href="https://altex.ro/">
-                    <img class="social_icon__img" src="img/p.png" alt="altex">
-                </a>
-            </li>
-            <li class="social_icon__list">
-                <a class="social_icon__list-item" href="https://www.owox.com/">
-                    <img class="social_icon__img" src="img/i.png" alt="owox">
-                </a>
-            </li>
-        </ul>
-    </div>
+                    <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
 
-    <img src="img/long_line.png" alt="#">
-
-    <div class="footer_rating">
-        <ul class="footer_rating__list">
-            <li class="footer_rating__list_item">
-                Company Rating
-            </li>
-            <li class="footer_rating__list_item">
-                <img src="img/star.png" alt="star">
-            </li>
-            <li class="footer_rating__list_item">
-                <img src="img/star.png" alt="star">
-            </li>
-            <li class="footer_rating__list_item">
-                <img src="img/star.png" alt="star">
-            </li>
-            <li class="footer_rating__list_item">
-                <img src="img/star.png" alt="star">
-            </li>
-            <li class="footer_rating__list_item">
-                <img src="img/star.png" alt="star">
-            </li>
-        </ul>
-
-        <p class="footer_rating__title">
-            Copyright © 2018 Dlk • Design Life Kids
-        </p>
-
-        <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
-    </div>
-</section>
+                    <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
 
 </body>
 </html>
