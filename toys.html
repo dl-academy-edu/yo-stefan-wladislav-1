@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/toys.css">
+    <link rel="stylesheet" href="style/common.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys</title>
+</head>
+<body>
+
+<!-- HEADER -->
+        <header class="header__container container">
+            <ul class="header__list-first">
+                <li class="header__list-item--one">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo">
+                    </a>
+                </li>
+                <li class="header__list-item--first">
+                    <a href="blog.html" class="header__list-link">BLOG</a>
+                </li>
+                <li class="header__list-item--first">
+                    <a href="catalog.html" class="header__list-link">CATALOG</a>
+                </li>
+                <li class="header__list-item--first">
+                    <a href="about.html" class="header__list-link">ABOUT US</a>
+                </li>
+            </ul>
+            <ul class="header__list-search">
+                <li class="header__list-item--search">
+                    <button type="button" class="header__button">
+                        <img src="img/search.svg" alt="search" class="search__img">
+                    </button>
+                </li>
+                <li class="header__list-item--two">
+                    <a href="contact" class="header__list-link">CONTACT US</a>
+                </li>
+            </ul>
+        </header>
+
+    <!-- MAIN -->
+
+    <main class="main">
+        
+         <!-- TOYS -->
+    <section class="toys container">
+        <div class="toys__wrapper">
+
+            <h2 class="toys__title">TOYS FOR KIDS</h2>
+
+            <div class="page">
+                <a class="page__link" href="index.html">Home</a>
+                <img class="page__img" src="img/ar-page.png" alt="#">
+                <a class="page__link" href="catalog.html">Catalog</a>
+                <img class="page__img" src="img/ar-page.png" alt="#">
+                <a class="page__link" href="toys.html">Toys</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="toys__option">
+        <h2 class="hidden">Option</h2>
+    
+        <div class="toys__option-wrapper container">
+            <form class="toys__form">
+                <div class="toys__form-container">
+
+                    <div class="form__slider">
+                        <p class="slider__title">Cost</p>
+                        <input type="range" min="0" max="500" value="250" class="slider">
+                        <p class="slider__min">0</p>
+                        <p class="slider__max">500</p>
+                    </div>
+
+                    <div class="form__color">
+                        <p class="color_title">Color</p>
+                        <input type="checkbox" name="color" class="checkbox__color" >
+                        <label>Black</label>
+                        <input type="checkbox" name="color" class="checkbox__color">
+                        <label>Blue</label>
+                        <input type="checkbox" name="color" class="checkbox__color">
+                        <label>Green</label>
+                        <input type="checkbox" name="color" class="checkbox__color">
+                        <label>White</label>
+                    </div>
+
+                    <div class="form__delivery">
+                        <p class="delivery__title">Delivery</p>
+                        <input type="radio" name="delivery" class="delivery__radio">
+                        <label>Free shipping</label>
+                        <input type="radio" name="delivery" class="delivery__radio">
+                        <label>Fast shipping</label>
+                    </div>
+
+                    <div class="form__amount">
+                        <p class="amount__title">Amount</p>
+                        <input type="radio" class="amount__radio-one">
+                        <label>0-5</label>
+                        <input type="radio" class="amount__radio-two">
+                        <label>10-20</label>
+                        <input type="radio" class="amount__radio-three">
+                        <label>20-50</label>
+                    </div>
+
+                    <input type="button" value="APPLY" class="amount__button">
+
+                </div>
+            </form>
+        </div>
+        </section>
+
+        <section class="toys__catalog container">
+            <div class="toys__catalog-wrapper">
+                <h2 class="hidden">catalog</h2>
+                <ul class="catalog__list-one">
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-one.png" alt="#">
+                        <p class="catalog__list-content">SHARKY BEAN BAG CHAIR COVER</p>
+                        <a class="catalog__list-price" href="#">$60.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-two.png" alt="#">
+                        <p class="catalog__list-content">BRASS DECO FRAMES</p>
+                        <a class="catalog__list-price" href="#">$66.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-three.png" alt="#">
+                        <p class="catalog__list-content">CIBO FULL APRON</p>
+                        <a class="catalog__list-price" href="#">$60.00 USD</a>
+                    </li>
+                </ul>
+                <ul class="catalog__list-two">
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-four.png" alt="#">
+                        <p class="catalog__list-content">GATCHA GATCHA GUMBALL MACHINE</p>
+                        <a class="catalog__list-price" href="#">$56.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-five.png" alt="#">
+                        <p class="catalog__list-content">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <a class="catalog__list-price" href="#">$29.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-six.png" alt="#">
+                        <p class="catalog__list-content">TANGLE SPINNING TEA LIGHT</p>
+                        <a class="catalog__list-price" href="#">$56.00 USD</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="page__catalog-wrapper">
+                <button class="catalog__arrow"><img src="img/next-page-left.png" class="catalog__arrow"></button>
+                <ul class="catalog__list-page">
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">1</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">2</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">3</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">4</a>
+                    </li>
+                </ul>
+                <button class="catalog__arrow"><img src="img/next-page-right.png" class="catalog__arrow"></button>
+            </div>
+        </section>
+        </main>
+
+
+<!-- FOOTER -->
+    <footer class="footer">
+        <section class="footer__container container">
+            <div class="footer__wrapper">
+                <ul class="footer__list">
+                    <li class="footer__list-title"><p class="footer__nav">Navigation</p></li>
+                    <li class="footer__list-item">About Us</li>
+                    <li class="footer__list-item">Blog</li>
+                    <li class="footer__list-item">Design Services</li>
+                    <li class="footer__list-item">Featured On</li>
+                    <li class="footer__list-item">2018 Holiday Catalog</li>
+                    <li class="footer__list-item">Shop By Designer</li>
+                </ul>
+
+                <ul class="footer__list">
+                    <li class="footer__list-title"><p class="footer__info">Customer Information</p></li>
+                    <li class="footer__list-item">Contact Us</li>
+                    <li class="footer__list-item">Sale Exclusions</li>
+                    <li class="footer__list-item">Shipping & Returns</li>
+                    <li class="footer__list-item">Terms & Conditions</li>
+                    <li class="footer__list-item">Privacy Policy</li>
+                    <li class="footer__list-item">Search</li>
+                </ul>
+
+                <!--<ul class="footer__list-connect">
+                    <li class="footer__list-title"><p class="footer__connect">Connect</p></li>
+                    <li class="footer__list-item">
+                        <form class="connect__form">
+                            <input class="connect__form-email" type="email" placeholder="EMAIL">
+                            <input class="connect__form-button" type="button" value="JOIN">
+                        </form>
+                    </li>
+                    <li class="social_icon__list">
+                        <a class="social_icon__list-item" href="https://news.mail.ru/">
+                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
+                        </a>
+                    </li>
+                    <li class="social_icon__list">
+                        <a class="social_icon__list-item" href="https://www.apple.com/">
+                            <img class="social_icon__img" src="img/t.png" alt="apple">
+                        </a>
+                    </li>
+                    <li class="social_icon__list">
+                        <a class="social_icon__list-item" href="https://altex.ro/">
+                            <img class="social_icon__img" src="img/p.png" alt="altex">
+                        </a>
+                    </li>
+                    <li class="social_icon__list">
+                        <a class="social_icon__list-item" href="https://www.owox.com/">
+                            <img class="social_icon__img" src="img/i.png" alt="owox">
+                        </a>
+                    </li>
+                </ul>-->
+                <ul class="footer__list-connect">
+                    <li class="footer__list-title"><p class="footer__connect">Connect</p></li>
+                    <li class="footer__list-item">
+                        <form class="connect__form">
+                            <input class="connect__form-email" type="email" placeholder="EMAIL">
+                            <input class="connect__form-button" type="button" value="JOIN">
+                        </form>
+                        
+                        <a class="social_icon__list-item" href="https://news.mail.ru/">
+                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
+                        </a>
+                        
+                        <a class="social_icon__list-item" href="https://www.apple.com/">
+                            <img class="social_icon__img" src="img/t.png" alt="apple">
+                        </a>
+                        
+                        <a class="social_icon__list-item" href="https://altex.ro/">
+                            <img class="social_icon__img" src="img/p.png" alt="altex">
+                        </a>
+                        
+                        <a class="social_icon__list-item" href="https://www.owox.com/">
+                            <img class="social_icon__img" src="img/i.png" alt="owox">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer__rating">
+                <div class="rating">
+                    <ul class="footer_rating__list">
+                        <li class="footer_rating__list_item">
+                            Company Rating
+                        </li>
+                        <li class="footer_rating__list_item">
+                            <img src="img/star.png" alt="star">
+                        </li>
+                        <li class="footer_rating__list_item">
+                            <img src="img/star.png" alt="star">
+                        </li>
+                        <li class="footer_rating__list_item">
+                            <img src="img/star.png" alt="star">
+                        </li>
+                        <li class="footer_rating__list_item">
+                            <img src="img/star.png" alt="star">
+                        </li>
+                        <li class="footer_rating__list_item">
+                            <img src="img/star.png" alt="star">
+                        </li>
+                    </ul>
+
+                <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
+
+                <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
