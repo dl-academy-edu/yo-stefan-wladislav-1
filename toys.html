@@ -68,42 +68,75 @@
                 <div class="toys__form-container">
 
                     <div class="form__slider">
-                        <p class="slider__title">Cost</p>
+                        <p class="cost__title">Cost</p>
                         <input type="range" min="0" max="500" value="250" class="slider">
                         <p class="slider__min">0</p>
                         <p class="slider__max">500</p>
                     </div>
 
                     <div class="form__color">
-                        <p class="color_title">Color</p>
-                        <input type="checkbox" name="color" class="checkbox__color" >
-                        <label>Black</label>
-                        <input type="checkbox" name="color" class="checkbox__color">
-                        <label>Blue</label>
-                        <input type="checkbox" name="color" class="checkbox__color">
-                        <label>Green</label>
-                        <input type="checkbox" name="color" class="checkbox__color">
-                        <label>White</label>
+                        <p class="color__title">Color</p>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox" checked>
+                        <span class="check__box"></span>
+                            Black
+                        </label>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox">
+                        <span class="check__box"></span>
+                            Blue
+                        </label>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox">
+                        <span class="check__box"></span>
+                            Green
+                        </label>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox">
+                        <span class="check__box"></span>
+                            White
+                        </label>
                     </div>
 
                     <div class="form__delivery">
                         <p class="delivery__title">Delivery</p>
-                        <input type="radio" name="delivery" class="delivery__radio">
-                        <label>Free shipping</label>
-                        <input type="radio" name="delivery" class="delivery__radio">
-                        <label>Fast shipping</label>
+                        
+                        <label class="radio option">
+                            <input type="radio" name="delivery" class="radio__input">
+                            <span class="radio__circle"></span>
+                            Free shipping
+                        </label>
+                        
+                        <label class="radio option">
+                            <input type="radio" name="delivery" class="radio__input" checked>
+                            <span class="radio__circle"></span>
+                            Fast shipping
+                        </label>
                     </div>
 
-                    <div class="form__amount">
+                    <div class="radio__cont">
                         <p class="amount__title">Amount</p>
-                        <input type="radio" class="amount__radio-one">
-                        <label>0-5</label>
-                        <input type="radio" class="amount__radio-two">
-                        <label>10-20</label>
-                        <input type="radio" class="amount__radio-three">
-                        <label>20-50</label>
-                    </div>
+                        <div class="radio__form-wr">
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="term" />
+                            <span class="radio__fake">0-5</span>
+                        </label>
 
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="term" />
+                            <span class="radio__fake">10-20</span>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="term" />
+                            <span class="radio__fake">20-50</span>
+                        </label>
+                        </div>
+                    </div>
                     <input type="button" value="APPLY" class="amount__button">
 
                 </div>
@@ -151,7 +184,7 @@
             </div>
             
             <div class="page__catalog-wrapper">
-                <button class="catalog__arrow"><img src="img/next-page-left.png" class="catalog__arrow"></button>
+                <button class="switch__arrow"><img src="img/next-page-left.png" class="catalog__arrow" alt="#"></button>
                 <ul class="catalog__list-page">
                     <li class="catalog__list-item">
                         <a class="catalog__list-page" href="#">1</a>
@@ -166,7 +199,7 @@
                         <a class="catalog__list-page" href="#">4</a>
                     </li>
                 </ul>
-                <button class="catalog__arrow"><img src="img/next-page-right.png" class="catalog__arrow"></button>
+                <button class="switch__arrow"><img src="img/next-page-right.png" class="catalog__arrow" alt="#"></button>
             </div>
         </section>
         </main>
@@ -176,6 +209,7 @@
     <footer class="footer">
         <section class="footer__container container">
             <div class="footer__wrapper">
+                <h2 class="hidden">Footer</h2>
                 <ul class="footer__list">
                     <li class="footer__list-title"><p class="footer__nav">Navigation</p></li>
                     <li class="footer__list-item">About Us</li>
@@ -196,35 +230,6 @@
                     <li class="footer__list-item">Search</li>
                 </ul>
 
-                <!--<ul class="footer__list-connect">
-                    <li class="footer__list-title"><p class="footer__connect">Connect</p></li>
-                    <li class="footer__list-item">
-                        <form class="connect__form">
-                            <input class="connect__form-email" type="email" placeholder="EMAIL">
-                            <input class="connect__form-button" type="button" value="JOIN">
-                        </form>
-                    </li>
-                    <li class="social_icon__list">
-                        <a class="social_icon__list-item" href="https://news.mail.ru/">
-                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
-                        </a>
-                    </li>
-                    <li class="social_icon__list">
-                        <a class="social_icon__list-item" href="https://www.apple.com/">
-                            <img class="social_icon__img" src="img/t.png" alt="apple">
-                        </a>
-                    </li>
-                    <li class="social_icon__list">
-                        <a class="social_icon__list-item" href="https://altex.ro/">
-                            <img class="social_icon__img" src="img/p.png" alt="altex">
-                        </a>
-                    </li>
-                    <li class="social_icon__list">
-                        <a class="social_icon__list-item" href="https://www.owox.com/">
-                            <img class="social_icon__img" src="img/i.png" alt="owox">
-                        </a>
-                    </li>
-                </ul>-->
                 <ul class="footer__list-connect">
                     <li class="footer__list-title"><p class="footer__connect">Connect</p></li>
                     <li class="footer__list-item">
@@ -232,53 +237,53 @@
                             <input class="connect__form-email" type="email" placeholder="EMAIL">
                             <input class="connect__form-button" type="button" value="JOIN">
                         </form>
-                        
                         <a class="social_icon__list-item" href="https://news.mail.ru/">
-                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
+                            <img class="social__icon-img" src="img/Facebook.png" alt="mailgroup">
                         </a>
                         
                         <a class="social_icon__list-item" href="https://www.apple.com/">
-                            <img class="social_icon__img" src="img/t.png" alt="apple">
+                            <img class="social__icon-img" src="img/Twitter.png" alt="apple">
                         </a>
                         
                         <a class="social_icon__list-item" href="https://altex.ro/">
-                            <img class="social_icon__img" src="img/p.png" alt="altex">
+                            <img class="social__icon-img" src="img/Pinterest.png" alt="altex">
                         </a>
                         
                         <a class="social_icon__list-item" href="https://www.owox.com/">
-                            <img class="social_icon__img" src="img/i.png" alt="owox">
+                            <img class="social__icon-img" src="img/Instagram.png" alt="owox">
                         </a>
                     </li>
                 </ul>
             </div>
             
-            <div class="footer__rating">
+            <div class="footer__rating-wrapper">
+                
                 <div class="rating">
-                    <ul class="footer_rating__list">
-                        <li class="footer_rating__list_item">
-                            Company Rating
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                    </ul>
+                    
+                    <p class="footer__rating-title">Company Rating</p>
+                    
+                    <input class="rating__input" type="radio" id="1" name="rating">
+                    <label class="rating__label" for="5">☆</label>
 
-                <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <input class="rating__input" type="radio" id="2" name="rating">
+                    <label class="rating__label" for="4">☆</label>
 
-                <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                    <input class="rating__input" type="radio" id="3" name="rating">
+                    <label class="rating__label" for="3">☆</label>
+
+                    <input class="rating__input" type="radio" id="4" name="rating">
+                    <label class="rating__label" for="2">☆</label>
+
+                    <input class="rating__input" type="radio" id="5" name="rating">
+                    <label class="rating__label" for="1">☆</label>
+                    
+                    <div class="rating__footer-wrapper">
+                    <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                    </div>
+                    
                 </div>
+                
             </div>
         </section>
     </footer>

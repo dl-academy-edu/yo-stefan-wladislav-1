@@ -13,26 +13,26 @@
 
 <!-- HEADER -->
         <header class="header__container container">
-            <ul class="header__list-one">
+            <ul class="header__list-first">
                 <li class="header__list-item--one">
                     <a href="index.html">
                         <img src="img/logo.png" alt="logo" class="logo">
                     </a>
                 </li>
-                <li class="header__list-item--one">
+                <li class="header__list-item--first">
                     <a href="blog.html" class="header__list-link">BLOG</a>
                 </li>
-                <li class="header__list-item--one">
+                <li class="header__list-item--first">
                     <a href="catalog.html" class="header__list-link">CATALOG</a>
                 </li>
-                <li class="header__list-item--one">
+                <li class="header__list-item--first">
                     <a href="about.html" class="header__list-link">ABOUT US</a>
                 </li>
             </ul>
-            <ul class="header__list-two">
-                <li class="header__list-item--two">
+            <ul class="header__list-search">
+                <li class="header__list-item--search">
                     <button type="button" class="header__button">
-                        <img src="img/search.svg" alt="search" class="search">
+                        <img src="img/search.svg" alt="search" class="search__img">
                     </button>
                 </li>
                 <li class="header__list-item--two">
@@ -95,10 +95,11 @@
     </main>
 
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
     <footer class="footer">
-        <section class="footer__container">
-            <div class="footer__wrapper container">
+        <section class="footer__container container">
+            <div class="footer__wrapper">
+                <h2 class="hidden">Footer</h2>
                 <ul class="footer__list">
                     <li class="footer__list-title"><p class="footer__nav">Navigation</p></li>
                     <li class="footer__list-item">About Us</li>
@@ -126,57 +127,53 @@
                             <input class="connect__form-email" type="email" placeholder="EMAIL">
                             <input class="connect__form-button" type="button" value="JOIN">
                         </form>
-                    </li>
-                    <li class="social_icon__list">
                         <a class="social_icon__list-item" href="https://news.mail.ru/">
-                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
+                            <img class="social__icon-img" src="img/Facebook.png" alt="mailgroup">
                         </a>
-                    </li>
-                    <li class="social_icon__list">
+                        
                         <a class="social_icon__list-item" href="https://www.apple.com/">
-                            <img class="social_icon__img" src="img/t.png" alt="apple">
+                            <img class="social__icon-img" src="img/Twitter.png" alt="apple">
                         </a>
-                    </li>
-                    <li class="social_icon__list">
+                        
                         <a class="social_icon__list-item" href="https://altex.ro/">
-                            <img class="social_icon__img" src="img/p.png" alt="altex">
+                            <img class="social__icon-img" src="img/Pinterest.png" alt="altex">
                         </a>
-                    </li>
-                    <li class="social_icon__list">
+                        
                         <a class="social_icon__list-item" href="https://www.owox.com/">
-                            <img class="social_icon__img" src="img/i.png" alt="owox">
+                            <img class="social__icon-img" src="img/Instagram.png" alt="owox">
                         </a>
                     </li>
                 </ul>
             </div>
             
-            <div class="footer__rating">
+            <div class="footer__rating-wrapper">
+                
                 <div class="rating">
-                    <ul class="footer_rating__list">
-                        <li class="footer_rating__list_item">
-                            Company Rating
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                        <li class="footer_rating__list_item">
-                            <img src="img/star.png" alt="star">
-                        </li>
-                    </ul>
+                    
+                    <p class="footer__rating-title">Company Rating</p>
+                    
+                    <input class="rating__input" type="radio" id="1" name="rating">
+                    <label class="rating__label" for="5">☆</label>
 
-                <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <input class="rating__input" type="radio" id="2" name="rating">
+                    <label class="rating__label" for="4">☆</label>
 
-                <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                    <input class="rating__input" type="radio" id="3" name="rating">
+                    <label class="rating__label" for="3">☆</label>
+
+                    <input class="rating__input" type="radio" id="4" name="rating">
+                    <label class="rating__label" for="2">☆</label>
+
+                    <input class="rating__input" type="radio" id="5" name="rating">
+                    <label class="rating__label" for="1">☆</label>
+                    
+                    <div class="rating__footer-wrapper">
+                    <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                    </div>
+                    
                 </div>
+                
             </div>
         </section>
     </footer>

@@ -62,24 +62,32 @@
                     <form class="contact__us-form" action="/" method="post">
                         <div class="form__container">
                             <div class="form__group">
-                                <label class="form__label" for="form_name">Name</label>
-                                <input class="form__name" type="text" name="name" id="form_name" required>
-                            </div>
-                            <div class="form__group-wrapper">
-                                <div class="form__group">
-                                    <label class="form__label" for="form_tel">Phone</label>
-                                    <input class="form__input form__tel" type="tel" name="tel" id="form_tel" required>
-                                    <label class="form__label" for="form_email">Email</label>
-                                    <input class="form__input" type="email" name="email" id="form_email" required>
-                                </div>
+                                <label class="form__label" for="form_name">Name
+                                    <input class="form__name" type="text" name="name" id="form_name" required>
+                                </label>
                             </div>
                             <div class="form__group">
-                                <label class="form__label" for="form_message">Message</label>
-                                <input class="form__message" type="text" name="message" id="form_message" required>
+                                <label class="form__label" for="form_tel">Phone
+                                    <input class="form__input form__tel" type="tel" name="tel" id="form_tel" required>
+                                </label>
+                                <label class="form__label" for="form_email">Email
+                                    <input class="form__input" type="email" name="email" id="form_email" required>
+                                </label>
+                                    
+                            </div>
+                           
+                            <div class="form__group">
+                                <label class="form__label" for="form_message">Message
+                                    <textarea class="form__message" name="message" id="form_message" required>
+                                </textarea>
+                                </label>
                             </div>
                             <div class="form__rule">
-                                <input type="checkbox" class="input_rule" id="form_rule" name="rule">
-                                <label for="form_rule" class="form__rule">By clicking on the button, you consent to the processing of your personal data</label>
+                                <label class="check">
+                                    <input class="check__input" type="checkbox">
+                                    <span class="check__box"></span>
+                                    By clicking on the button, you consent to the processing of your personal data
+                                </label>
                             </div>
                                 <input class="form__button" type="submit" value="SUBMIT">
                         </div>
@@ -128,57 +136,55 @@
                             <input class="connect__form-email" type="email" placeholder="EMAIL">
                             <input class="connect__form-button" type="button" value="JOIN">
                         </form>
-                        
                         <a class="social_icon__list-item" href="https://news.mail.ru/">
-                            <img class="social_icon__img" src="img/f.png" alt="mailgroup">
+                            <img class="social__icon-img" src="img/Facebook.png" alt="mailgroup">
                         </a>
                         
                         <a class="social_icon__list-item" href="https://www.apple.com/">
-                            <img class="social_icon__img" src="img/t.png" alt="apple">
+                            <img class="social__icon-img" src="img/Twitter.png" alt="apple">
                         </a>
                         
                         <a class="social_icon__list-item" href="https://altex.ro/">
-                            <img class="social_icon__img" src="img/p.png" alt="altex">
+                            <img class="social__icon-img" src="img/Pinterest.png" alt="altex">
                         </a>
                         
                         <a class="social_icon__list-item" href="https://www.owox.com/">
-                            <img class="social_icon__img" src="img/i.png" alt="owox">
+                            <img class="social__icon-img" src="img/Instagram.png" alt="owox">
                         </a>
                     </li>
                 </ul>
             </div>
             
             <div class="footer__rating-wrapper">
-                <div class="footer__rating">
-                        <ul class="footer_rating__list">
-                            <li class="footer_rating__list_title">
-                                Company Rating
-                            </li>
-                            <li class="footer_rating__list_item">
-                                <img src="img/star.png" alt="star">
-                            </li>
-                            <li class="footer_rating__list_item">
-                                <img src="img/star.png" alt="star">
-                            </li>
-                            <li class="footer_rating__list_item">
-                                <img src="img/star.png" alt="star">
-                            </li>
-                            <li class="footer_rating__list_item">
-                                <img src="img/star.png" alt="star">
-                            </li>
-                            <li class="footer_rating__list_item">
-                                <img src="img/star.png" alt="star">
-                            </li>
-                        </ul>
+                
+                <div class="rating">
+                    
+                    <p class="footer__rating-title">Company Rating</p>
+                    
+                    <input class="rating__input" type="radio" id="1" name="rating">
+                    <label class="rating__label" for="5">☆</label>
 
+                    <input class="rating__input" type="radio" id="2" name="rating">
+                    <label class="rating__label" for="4">☆</label>
+
+                    <input class="rating__input" type="radio" id="3" name="rating">
+                    <label class="rating__label" for="3">☆</label>
+
+                    <input class="rating__input" type="radio" id="4" name="rating">
+                    <label class="rating__label" for="2">☆</label>
+
+                    <input class="rating__input" type="radio" id="5" name="rating">
+                    <label class="rating__label" for="1">☆</label>
+                    
+                    <div class="rating__footer-wrapper">
                     <p class="footer_rating__title">Copyright © 2018 Dlk • Design Life Kids</p>
-
                     <a class="footer_rating__link" href="#">Web Design — Direct Line Development</a>
+                    </div>
+                    
                 </div>
+                
             </div>
         </section>
     </footer>
-    
-
 </body>
 </html>

@@ -20,6 +20,12 @@
     margin-right: 20px;
 }
 
+.page__blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 67px;
+}
+
 .blog__arrow {
     margin-right: 20px;
 }
@@ -32,7 +38,6 @@
     padding: 0;
     display: flex;
     column-gap: 67px;
-    margin-left: 115px;
 }
 
 .blog__list-one {
