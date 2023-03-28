@@ -135,7 +135,32 @@
     display: flex;
     column-gap: 120px;
 }
-/*sider*/
+/*slider*/
+
+.slider__list {
+    display: flex;
+}
+
+.slider__list-start {
+    margin-top: 6px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.slider__list-end {
+    margin-left: 211px;
+    margin-top: 6px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
 
 .slider,
 .slider__rez {

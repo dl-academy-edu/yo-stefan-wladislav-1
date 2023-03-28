@@ -35,7 +35,7 @@
                     </button>
                 </li>
                 <li class="header__list-item--two">
-                    <a href="contact" class="header__list-link">CONTACT US</a>
+                    <a href="contact-us.html" class="header__list-link">CONTACT US</a>
                 </li>
             </ul>
         </header>
@@ -70,7 +70,13 @@
                     <div class="form__slider">
                         <p class="cost__title">Cost</p>
                             <input class="slider" type="range" value="30" min="0" max="50" oninput="rangevalue.value=value"/>
-                            <output class="slider__rez" id="rangevalue">30</output>
+                        
+                            <ul class="slider__list">
+                                <li class="slider__list-start">0</li>
+                                <li class="slider__list-end">500</li>
+                            </ul>    
+                        
+                            <output class="slider__rez hidden" id="rangevalue">30</output>
                     </div>
 
                     <div class="form__color">
