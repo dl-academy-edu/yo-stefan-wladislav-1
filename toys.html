@@ -14,8 +14,8 @@
         <header class="header__container container">
             <ul class="header__list-first">
                 <li class="header__list-item--one">
-                    <a href="index.html">
-                        <img src="img/logo.png" alt="logo" class="logo">
+                    <a class="logo" href="index.html">
+                        <img class="logo__img" src="img/logo.png" alt="logo">
                     </a>
                 </li>
                 <li class="header__list-item--first">
@@ -31,7 +31,7 @@
             <ul class="header__list-search">
                 <li class="header__list-item--search">
                     <button type="button" class="header__button">
-                        <img src="img/search.svg" alt="search" class="search__img">
+                        <img class="search__img" src="img/search.svg" alt="search">
                     </button>
                 </li>
                 <li class="header__list-item--two">
@@ -69,9 +69,8 @@
 
                     <div class="form__slider">
                         <p class="cost__title">Cost</p>
-                        <input type="range" min="0" max="500" value="250" class="slider">
-                        <p class="slider__min">0</p>
-                        <p class="slider__max">500</p>
+                            <input class="slider" type="range" value="30" min="0" max="50" oninput="rangevalue.value=value"/>
+                            <output class="slider__rez" id="rangevalue">30</output>
                     </div>
 
                     <div class="form__color">
@@ -105,13 +104,13 @@
                     <div class="form__delivery">
                         <p class="delivery__title">Delivery</p>
                         
-                        <label class="radio option">
+                        <label class="radio__delivery option">
                             <input type="radio" name="delivery" class="radio__input">
                             <span class="radio__circle"></span>
                             Free shipping
                         </label>
                         
-                        <label class="radio option">
+                        <label class="radio__delivery option">
                             <input type="radio" name="delivery" class="radio__input" checked>
                             <span class="radio__circle"></span>
                             Fast shipping
@@ -145,6 +144,9 @@
         </section>
 
         <section class="toys__catalog container">
+            <!-- <div class="learn">
+                <p class="learn__more">learn more</p>
+            </div> -->
             <div class="toys__catalog-wrapper">
                 <h2 class="hidden">catalog</h2>
                 <ul class="catalog__list-one">
@@ -187,7 +189,7 @@
                 <button class="switch__arrow"><img src="img/next-page-left.png" class="catalog__arrow" alt="#"></button>
                 <ul class="catalog__list-page">
                     <li class="catalog__list-item">
-                        <a class="catalog__list-page" href="#">1</a>
+                        <a class="catalog__num" href="#">1</a>
                     </li>
                     <li class="catalog__list-item">
                         <a class="catalog__list-page" href="#">2</a>
@@ -287,6 +289,6 @@
             </div>
         </section>
     </footer>
-
+<script src="js/slider.js"></script>
 </body>
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="psevdoklass.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>psevdoklass</title>
+    </head>
+    <body>
+        
+        <div class="form">
+            <h1 class="title">Форма</h1>
+            
+            <a class="link" href="psevdoklass.html">ссылка</a>
+
+            <form action="/" method="post">
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                    <div class="form-group">
+                        <label for="input_name">Ваше имя</label>
+                        <input class="form-input" type="text" name="name" id="input_name">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Пароль</legend>
+                    <div class="form-group">
+                        <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <textarea class="form-textarea" name="text" placeholder="О вас"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <select name="city">
+                        <option>Рига</option>
+                        <option>Даугавпилс</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="male">Муж</label>
+                    <input type="radio" name="choose_male" id="male" checked>
+
+                    <label for="female">Жен</label>
+                    <input type="radio" name="choose_male" id="female">
+                </div>
+
+                <div class="form-group">
+                    <label for="photo">Фото</label>
+                    <input type="file" name="photo" id="photo">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" name="rules_agree" id="rules_agree" checked>
+                    <label for="rules_agree">Прочитал условия и согласен с ними</label>
+                </div>
+
+                <button class="btn" type="submit">Отправить</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
