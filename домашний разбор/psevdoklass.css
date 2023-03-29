@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+
+    background: #eee url("../img/pattern.png");
+    background-size: 200px 200px;
+}
+
+/* Form */
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    display: block;
+    padding: 5px;
+
+    border: 1px solid #000;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    outline: 0;
+    
+    background-color: #2e8db1;
+}
+
+.form-textarea {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+
+    border: 1px solid #000;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.form-textarea:focus {
+    outline: 0;
+    
+    background-color: #2e8db1;
+}
+
+.link {
+    color: #bbd42f;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #11cc3c;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #08951e;
+    border: 1px solid #077418;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #077418;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #05450f;
+}
+
+.btn:disabled {
+    background-color: #3d453e;
+    color: #312424;
+    cursor: not-allowed;
+    border: 1px solid #2f312f;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style/test.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>test</title>
+</head>
+<body>
+    <div class="rating">
+        
+        <input class="rating__input" type="radio" id="1" name="rating">
+        <label class="rating__label" for="1">☆</label>
+        
+        <input class="rating__input" type="radio" id="2" name="rating">
+        <label class="rating__label" for="2">☆</label>
+        
+        <input class="rating__input" type="radio" id="3" name="rating">
+        <label class="rating__label" for="3">☆</label>
+        
+        <input class="rating__input" type="radio" id="4" name="rating">
+        <label class="rating__label" for="4">☆</label>
+        
+        <input class="rating__input" type="radio" id="5" name="rating">
+        <label class="rating__label" for="5">☆</label>
+    </div>
+    
+    
+    <form class="contact__us-form" action="/" method="post">
+        <div class="form__container">
+            <div class="form__group">
+                <label class="form__label" for="form_name">Name
+                    <input class="form__name" type="text" name="name" id="form_name" required>
+                </label>
+            </div>
+            <div class="form__group">
+                <label class="form__label" for="form_tel">Phone
+                    <input class="form__input form__tel" type="tel" name="tel" id="form_tel" required>
+                </label>
+                <label class="form__label" for="form_email">Email
+                    <input class="form__input" type="email" name="email" id="form_email" required>
+                </label>                                
+            </div>
+            <div class="form__group">
+                <label class="form__label" for="form_message">Message
+                    <textarea class="form__message" name="message" id="form_message" required>
+                    </textarea>
+                </label>
+            </div>
+            <!-- <div class="form__rule">
+                <label class="check">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>
+                    By clicking on the button, you consent to the processing of your personal data
+                </label>
+            </div> -->
+            
+             <div class="form__rule">
+                <input type="checkbox" class="input__rule" id="form_rule" name="rule">
+                 <span class="check__box"></span>
+                <label for="form_rule" class="label__rule">By clicking on the button, you consent to the processing of your personal data</label>
+            </div> 
+            <input class="form__button" type="submit" value="SUBMIT">
+        </div>
+    </form>
+    <div>
+    <label class="amount"><input class="amount__radio" type="radio" name="r">0-5</label>
+    <label class="amount"><input class="amount__radio" type="radio" name="r">10-20</label>
+    <label class="amount"><input class="amount__radio" type="radio" name="r">20-50</label>
+    </div>
+    <div class="radio__cont">
+        <label class="radio">
+          <input type="radio" class="radio__real" name="term" />
+          <span class="radio__fake">0-5</span>
+        </label>
+
+        <label class="radio">
+          <input type="radio" class="radio__real" name="term" />
+          <span class="radio__fake">10-20</span>
+        </label>
+
+        <label class="radio">
+          <input type="radio" class="radio__real" name="term" />
+          <span class="radio__fake">20-50</span>
+        </label>
+    </div>
+    
+</body>
+</html>
